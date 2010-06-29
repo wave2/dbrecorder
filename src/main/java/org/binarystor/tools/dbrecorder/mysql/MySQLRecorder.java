@@ -130,7 +130,6 @@ public class MySQLRecorder {
                 //Connect to Database
                 dumper.connect(host.getHostname(), mysqlPort, host.getUsername(), host.getPassword(), "mysql");
 
-
                 //Save global variables
                 String currentVariables = "";
                 Map<String, String> globalVariables = dumper.dumpGlobalVariables();
@@ -465,6 +464,9 @@ public class MySQLRecorder {
                         }
                     }
                 }
+                //Close database connection
+                dumper.cleanup();
+                
                 //Close SSH Tunnel if using SSH
                 if (secureShell != null) {
                     if (verbose) {
