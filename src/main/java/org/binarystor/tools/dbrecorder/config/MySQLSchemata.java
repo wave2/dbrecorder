@@ -28,7 +28,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package org.binarystor.tools.dbrecorder.mysql;
+package org.binarystor.tools.dbrecorder.config;
 
 /**
  *

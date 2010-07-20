@@ -30,6 +30,9 @@
 
 package org.binarystor.tools.dbrecorder;
 
+import org.binarystor.tools.dbrecorder.config.NotificationMethod;
+import org.binarystor.tools.dbrecorder.config.SubversionRepository;
+import org.binarystor.tools.dbrecorder.config.dbRecorderConfig;
 import org.binarystor.tools.dbrecorder.mysql.MySQLRecorder;
 
 import java.io.ByteArrayInputStream;

@@ -30,6 +30,8 @@
 
 package org.binarystor.tools.dbrecorder.mysql;
 
+import org.binarystor.tools.dbrecorder.config.MySQLSchemata;
+import org.binarystor.tools.dbrecorder.config.MySQLInstance;
 import java.io.ByteArrayOutputStream;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -40,7 +42,7 @@ import java.sql.*;
 import java.util.*;
 
 import org.binarystor.tools.dbrecorder.dbRecorder;
-import org.binarystor.tools.dbrecorder.SSHTunnel;
+import org.binarystor.tools.dbrecorder.config.SSHTunnel;
 import org.binarystor.mysql.MySQLDump;
 
 import org.tmatesoft.svn.core.SVNException;
